@@ -15,16 +15,23 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    
     <link rel="icon" href="static/favicon.png" />
   </head>
   <body>
     <div id="fadein"></div>
+    <div class="cursor"></div>
     <header>
       <h1>TAEHS Code Club Resource List</h1>
       <p>
-        Resources for beginners in modern fields selected by Edison Hack
+        Resources for beginners selected by Edison Hack
         Club(Code Club) members related to workshops we have done.
       </p>
     </header>
@@ -33,47 +40,52 @@
       <div class="pure-g">
         <div class="pure-u-1 pure-u-md-1-3">
           <div class="card">
-            <a href="#"
+            <a href="https://www.theodinproject.com/"
+              ><img src="/static/odin.webp" alt="Avatar" style="width: 100%"
+            /></a>
+            <div class="container">
+              <h4><b>The Odin Project</b></h4>
+              <p>A open-source web development curriculum.</p>
+              <p><i>"Quote"</i> - Dahshur</p>
+            </div>
+          </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-3">
+          <div class="card">
+            <a href="https://freecodecamp.com"
               ><img
-                src="https://www.w3schools.com/howto/img_avatar2.png"
+                src="/static/fcc_secondary_small.png"
                 alt="Avatar"
                 style="width: 100%"
             /></a>
             <div class="container">
-              <h4><b>Placeholder</b></h4>
+              <h4><b>FreeCodeCamp</b></h4>
+              <p>An open-source online programming curriculum.</p>
               <p>
-                A cybersecurity CTF for beginners created by Carnegie Mellon
-                University
+                <i
+                  >"Great for learning web development, then diving into other
+                  forms of programming"</i
+                >
+                - Kyle
               </p>
             </div>
           </div>
         </div>
         <div class="pure-u-1 pure-u-md-1-3">
           <div class="card">
-            <img
-              src="https://www.w3schools.com/howto/img_avatar2.png"
-              alt="Avatar"
-              style="width: 100%"
-            />
+            <a href="https://w3schools.com"
+              ><img
+                src="/static/W3Schools_logo.svg"
+                alt="Avatar"
+                style="width: 100%"
+            /></a>
             <div class="container">
-              <h4><b>Placeholder</b></h4>
+              <h4><b>W3Schools</b></h4>
+              <p>A collection of tutorials and references for programmers.</p>
               <p>
-                A cybersecurity course site offering free and paid courses with
-                a gamified system.
+                <i>Useful for when you just need to find that missing piece</i>
+                - Kyle
               </p>
-            </div>
-          </div>
-        </div>
-        <div class="pure-u-1 pure-u-md-1-3">
-          <div class="card">
-            <img
-              src="https://www.w3schools.com/howto/img_avatar2.png"
-              alt="Avatar"
-              style="width: 100%"
-            />
-            <div class="container">
-              <h4><b>Jane Doe</b></h4>
-              <p>Interior Designer</p>
             </div>
           </div>
         </div>
@@ -95,7 +107,7 @@
               <td>1</td>
               <td>Teachable Machine</td>
               <td>AI and CV</td>
-              <td>September 20th</td>
+              <td>SEP20</td>
               <td>
                 <a href="/workshops/teachablemachine.html"
                   >/workshops/teachablemachine</a
@@ -106,7 +118,7 @@
               <td>2</td>
               <td>Personal Website</td>
               <td>Web Dev, HTML, CSS</td>
-              <td>October 4th</td>
+              <td>OCT4</td>
               <td>
                 <a href="/workshops/personalwebsite.html"
                   >/workshops/personalwebsite</a
@@ -117,7 +129,7 @@
               <td>3</td>
               <td>Intro to Sprig</td>
               <td>JS, Game Dev, Hardware</td>
-              <td>October 25th</td>
+              <td>OCT25</td>
               <td>
                 <a href="/workshops/introtosprig.html"
                   >/workshops/introtosprig</a
@@ -128,7 +140,7 @@
               <td>4</td>
               <td>Stable Diffusion</td>
               <td>AI, Art, Collab</td>
-              <td>November 1st</td>
+              <td>NOV1</td>
               <td>
                 <a href="/workshops/stablediffusion.html"
                   >/workshops/stablediffusion</a
@@ -139,7 +151,7 @@
               <td>5</td>
               <td>Intro to PicoCTF</td>
               <td>Python, Linux, CTFs, Cybersecurity</td>
-              <td>November 29th</td>
+              <td>NOV29</td>
               <td>
                 <a href="/workshops/introtopicoctf.html"
                   >/workshops/introtopicoctf</a

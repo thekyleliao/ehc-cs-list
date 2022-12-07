@@ -49,6 +49,7 @@ body {
 
 header {
   font-size: 200%;
+  font-family: "Lato", sans-serif;
 }
 
 footer {
@@ -62,6 +63,7 @@ footer {
   margin: 0 auto;
   margin-top: 2em;
   margin-bottom: 2em;
+  font-family: "Roboto Mono", monospace;
 }
 
 .card:hover {
@@ -79,4 +81,19 @@ img {
   display: flex;
   justify-content: center;
   padding-bottom: 2em;
+  font-size: 10px;
+  font-family: "Roboto Mono", monospace;
 }
+
+@media (min-width: 48em) {
+  .index-table {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 78em) {
+  .index-table {
+    font-size: 20px;
+  }
+}
+
